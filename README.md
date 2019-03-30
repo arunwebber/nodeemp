@@ -15,7 +15,7 @@ git remote add origin https://github.com/arunwebber/nodeemp.git</br>
 git pull origin master</br>
 [Wait till the download is completed]</br>
 sudo npm install</br>
-[Wait till the installation is completed]
+[Wait till the installation is completed]</br>
 sudo node ./bin/www</br>
 [In terminal it will show 'App startted Port: 3000']</br>
 
