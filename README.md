@@ -9,7 +9,7 @@ Steps to install</br>
 sudo mkdir new</br>
 cd new</br>
 git init</br>
-git remote add git remote add origin https://github.com/arunwebber/nodeemp.git</br>
+git remote add origin https://github.com/arunwebber/nodeemp.git</br>
 git pull origin master</br>
 sudo npm install</br>
 sudo node ./bin/www</br>
