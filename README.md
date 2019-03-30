@@ -1,8 +1,8 @@
 # nodeemp
 Simple node emp using mongodb as the back end
-Steps to install
-1)Make sure that yourmongodb is running  on your local machine
-2)Make sure that the machine has node js
+Steps to install</br>
+1)Make sure that yourmongodb is running  on your local machine</br>
+2)Make sure that the machine has node js</br>
 
 #Follow this commands
 </br>
