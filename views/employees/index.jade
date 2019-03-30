@@ -1,0 +1,13 @@
+extends ../layout
+
+block content
+    ul
+        a(href='/employees/') Home |
+        a(href='/employees/new') Add new employee
+    h1.
+             #{title}
+    ul
+        - each blob, i in blobs
+            li
+                p
+                    a(href='/employees/#{blob._id}') #{blob.name}

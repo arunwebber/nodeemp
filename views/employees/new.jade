@@ -1,0 +1,27 @@
+extends ../layout
+
+block content
+    ul
+        a(href='/employees/') Home |
+        a(href='/employees/new') Add new employee
+    h1.
+        #{title}
+    form#formAddBlob(name="addblob",method="post",action="/employees")
+        p Name:
+            input#inputName(type="text", placeholder="ex. John Smith", name="name")
+        p Email:
+            input#inputName(type="text", placeholder="ex. John@Smith", name="email")
+        p Phone:
+            input#inputName(type="text", placeholder="984576", name="phone")
+        p Department:
+            input#inputName(type="text", placeholder="984576", name="department")
+        p State:
+            input#inputName(type="text", placeholder="Karnat", name="state")
+        p City:
+            input#inputName(type="text", placeholder="Benglore", name="city")
+        p Zip:
+            input#inputName(type="text", placeholder="560068", name="zip")
+        p DOB:
+            input#inputDob(type="date", name="dob")
+        p
+            button#btnSubmit(type="submit") submit

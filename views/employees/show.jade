@@ -1,0 +1,23 @@
+extends ../layout
+
+block content
+    ul
+        a(href='/employees/') Home |
+        a(href='/employees/new') Add new employee
+    h1.
+        Employee id: #{blob._id}
+
+    p Name: #{blob.name}
+    p Email: #{blob.email}
+    p Phone: #{blob.phone}
+    p Department:#{blob.department}
+    p State :#{blob.state}
+    p City :#{blob.city}
+    p Zip :#{blob.zip}
+    p DOB: #{blobdob}
+    form(action='/employees/#{blob._id}/edit',method='post',enctype='application/x-www-form-urlencoded')
+        input(type='hidden',value='DELETE',name='_method')
+        button(type='submit').
+            Delete
+    p
+        a(href='/employees/#{blob._id}/edit') Edit
