@@ -27,17 +27,17 @@ http://localhost:3000/employees/</br>
 
 There you can add edit delete employees
 
-V2
-With api support
-First create a jwt token from this url
-http://localhost:3000/users/login You will get a jwt tokn with admin Now you can use that in following
-To list all the employee
-Reqest: GET:http://localhost:3000/employees/
-To Update
-Request: PUT:http://localhost:3000/employees/id/edit
-To get employee details
-GET:http://localhost:3000/employees/5c9f4766841e7062ad73c643
-To delete employee details
-DELETE http://localhost:3000/employees/5ffc183cfd4259501afb0f0a/edit
-To create a new employee
+#V2
+With api support</br>
+First create a jwt token from this url</br>
+http://localhost:3000/users/login You will get a jwt tokn with admin Now you can use that in following</br>
+To list all the employee</br>
+Reqest: GET:http://localhost:3000/employees/</br>
+To Update</br>
+Request: PUT:http://localhost:3000/employees/id/edit</br>
+To get employee details</br>
+GET:http://localhost:3000/employees/5c9f4766841e7062ad73c643</br>
+To delete employee details</br>
+DELETE http://localhost:3000/employees/5ffc183cfd4259501afb0f0a/edit</br>
+To create a new employee</br>
 POST:http://localhost:3000/employees/new
