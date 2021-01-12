@@ -41,3 +41,14 @@ To delete employee details</br>
 DELETE http://localhost:3000/employees/5ffc183cfd4259501afb0f0a/edit</br>
 To create a new employee</br>
 POST:http://localhost:3000/employees/new
+For company
+To list all the Companieees</br>
+Reqest: GET:http://localhost:3000/companys/</br>
+To Update</br>
+Request: PUT:http://localhost:3000/company/id/edit</br>
+To get employee details</br>
+GET:http://localhost:3000/company/id</br>
+To delete employee details</br>
+DELETE http://localhost:3000/employees/company/edit</br>
+To create a new employee</br>
+POST:http://localhost:3000/employees/new
